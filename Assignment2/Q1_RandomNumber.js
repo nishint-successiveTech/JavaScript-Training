@@ -1,5 +1,3 @@
-
-
 let prev=-1;
 
 function randomNumberGen()
@@ -13,7 +11,7 @@ function randomNumberGen()
 
 
 // let num=Number(prompt("Enter how many times you want to run the loop: "));
-let num=100;
+let num=10;
 
 for(let i=0;i<num;i++)
 {
