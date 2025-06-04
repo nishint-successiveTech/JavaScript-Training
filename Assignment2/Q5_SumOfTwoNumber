@@ -1,13 +1,13 @@
 function sum(a,b)
 {
     let total=a+b;
-    console.log("Your Sum is: ", total);
+    return total;
+    
 }
 
-// let firstNum=alert("Enter first number");
-// let secondNum=alert("Enter second number");
 let firstNum=10
 let secondNum=20
 
-sum(firstNum,secondNum);
+let s=sum(firstNum,secondNum);
+console.log("Your Sum is:",s);
 
