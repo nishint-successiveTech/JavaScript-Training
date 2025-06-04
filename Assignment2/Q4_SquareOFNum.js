@@ -1,13 +1,13 @@
-function square(num)
-{
-    let ans= num*num; //another method num**2
-    console.log("Square of",num,"is",ans);
+function square(num){
+    let square= num*num; //another method num**2
+    return square;
 }
 
-//let num=prompt("Enter a number please: ");
-
-
-for(let i=0;i<=100;i++)
-{
-    square(i)
+function squareUpto100(){
+   for(let i=0;i<=100;i++){
+    let temp=square(i);
+    console.log("Square of ",i,"is",temp)
+    }
 }
+
+squareUpto100();
