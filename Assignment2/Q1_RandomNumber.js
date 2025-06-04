@@ -9,34 +9,28 @@ function randomNumberGen()
     return ans;
 } 
 
-
-// let num=Number(prompt("Enter how many times you want to run the loop: "));
 let num=10;
 
-for(let i=0;i<num;i++)
-{
-console.log("Your Random Number is :");
-
-let x=randomNumberGen();
-if(x!=prev)
-{
-prev=x;
-console.log(x);
-}
-else
-{
-    let x2=randomNumberGen();
-
-    while(x2==prev)
-    {
-        x2=randomNumberGen();   
+function prevNumChecker(){
+  for(let i=0;i<num;i++){
+    console.log("Your Random Number is :");
+    let x=randomNumberGen();
+    if(x!=prev){
+    prev=x;
+    console.log(x);
     }
+    else{         
+    let x2=randomNumberGen();
+        while(x2==prev){
+        x2=randomNumberGen();   
+        }
 
     prev=x2;
-
     console.log(x2); 
+    }
+    }
 }
 
-}
+prevNumChecker();
 
 
