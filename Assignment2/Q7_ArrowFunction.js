@@ -23,7 +23,12 @@ let sum=(first,second)=>{return first+second};
 console.log(sum(Number(100),Number(200)));
 
 //Question 6
-let evenOdd=(num)=>{if(num%2==0){console.log("even")}  else {console.log("odd")} }
+let evenOdd=(num)=>{ 
+        if(num%2==0)
+            {return true}  
+        else 
+            {return false} 
+    }
 
 for(let i=0;i<=100;i++)
 {
