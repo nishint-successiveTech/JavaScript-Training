@@ -3,12 +3,11 @@
 
 let ArgumentTakingFunction= (passing)=>{passing()}
 
-function helloNishint()
-{
+let hello=()=>{
     console.log("Hello Nishint");
 }
 
-ArgumentTakingFunction(helloNishint);
+ArgumentTakingFunction(hello);
 
 //Question 4
 let square=(num)=>{return num*num}
