@@ -2,9 +2,9 @@
 
 function twice(start,end)
 {
-    for(let i=start;i<=end;i++)
+    for(let i=start;i<=end;i=i*2)
     {
-        console.log("Twice of",i,"is",i*2);
+        console.log(i);
     }
 }
 

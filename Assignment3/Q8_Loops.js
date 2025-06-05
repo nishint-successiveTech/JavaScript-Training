@@ -1,6 +1,5 @@
 // 8. Write a program to dispaly number from 1-20 using all types of loops
 
-
 function forLoop(start,end)
 {
     for(let i=start;i<=end;i++)
