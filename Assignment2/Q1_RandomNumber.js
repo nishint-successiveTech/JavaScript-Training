@@ -26,7 +26,7 @@ function prevNumChecker(){
     }
 }
 
-let num=10;
+let num=1000;
 for(let i=0;i<num;i++){
 console.log("Your Random Number is :");
 prevNumChecker();
