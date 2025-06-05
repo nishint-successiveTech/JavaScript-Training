@@ -15,7 +15,7 @@ function userDetail()
     }
     
     let phoneNumber=prompt("Enter your phonenumber please: ");
-    while(phoneNumber.length<10)
+    while(phoneNumber.length!=10)
     {
         alert("Please enter valid phoneNumber");
         phoneNumber=prompt("Enter your phoneNumber please: ");

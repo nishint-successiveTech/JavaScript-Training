@@ -1,8 +1,7 @@
 function sum(a,b)
 {
     let total=a+b;
-    return total;
-    
+    return total; 
 }
 
 let firstNum=10

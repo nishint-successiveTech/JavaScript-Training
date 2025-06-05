@@ -3,11 +3,7 @@ function square(num){
     return square;
 }
 
-function squareUpto100(){
-   for(let i=0;i<=100;i++){
-    let temp=square(i);
-    console.log("Square of ",i,"is",temp)
-    }
+for(let i=0;i<=100;i++){
+let ans=square(i);
+console.log(ans)
 }
-
-squareUpto100();

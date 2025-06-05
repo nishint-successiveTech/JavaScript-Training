@@ -9,11 +9,7 @@ function randomNumberGen()
     return ans;
 } 
 
-let num=10;
-
 function prevNumChecker(){
-  for(let i=0;i<num;i++){
-    console.log("Your Random Number is :");
     let x=randomNumberGen();
     if(x!=prev){
     prev=x;
@@ -28,9 +24,12 @@ function prevNumChecker(){
     prev=x2;
     console.log(x2); 
     }
-    }
 }
 
+let num=10;
+for(let i=0;i<num;i++){
+console.log("Your Random Number is :");
 prevNumChecker();
+}
 
 

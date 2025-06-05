@@ -18,7 +18,6 @@ for(let i=0;i<=100;i++)
 }
 
 //Question 5
-
 let sum=(first,second)=>{return first+second};
 console.log(sum(Number(100),Number(200)));
 
@@ -30,10 +29,8 @@ let evenOdd=(num)=>{
             {return false} 
     }
 
-for(let i=0;i<=100;i++)
-{
-    console.log(i,"is");
-    evenOdd(i);
+for(let i=0;i<=100;i++){
+    console.log(evenOdd(i));
 }
 
 

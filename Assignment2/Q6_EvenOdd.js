@@ -7,12 +7,6 @@ function evenOdd(x){
     }
 }
 
-function evenOddUpto50()
-{
-    for(let i=0;i<=50;i++){
-    let ans=evenOdd(i);
-    console.log(i+" is "+ans);
-    }
+for(let i=0;i<=50;i++){
+console.log(evenOdd(i));
 }
-
-evenOddUpto50();
