@@ -1,0 +1,12 @@
+function sum(a,b)
+{
+    let total=a+b;
+    return total; 
+}
+
+let firstNum=10
+let secondNum=20
+
+let s=sum(firstNum,secondNum);
+console.log("Your Sum is:",s);
+
