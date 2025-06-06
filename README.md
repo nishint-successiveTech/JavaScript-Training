@@ -2,7 +2,7 @@
 
 Welcome to my JavaScript training repository! This repository documents my daily assignments and exercises as I progress through various JavaScript concepts and challenges.
 
-![JavaScript Training](https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.bitsrc.io%2F7-github-repositories-to-become-a-pro-javascript-developer-8ce09c4f8950&psig=AOvVaw3Gqzrh5eav2idTHN1PJdkK&ust=1749299499080000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLDe4Mvm3I0DFQAAAAAdAAAAABAE)
+![JavaScript Training](https://miro.medium.com/v2/resize:fit:1200/1*qKcOtgddtZ-jsCY4ARFZpg.jpeg)
 
 ## 🛠️ Technologies Used
 - JavaScript (ES6+)
