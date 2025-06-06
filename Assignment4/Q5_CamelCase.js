@@ -7,7 +7,14 @@ function camelCase(str){
         for(let j=0;j<arr[i].length;j++){
             let ch=arr[i].charAt(j)
             if(i==0){
+                let ascll=ch.charCodeAt(0)
+                if(ascll>=65 && ascll<=90){
+                let newStr=String.fromCharCode(ascll+32)
+                ans+=newStr;
+                }
+                else{
                 ans+=ch
+                }
             }
             else if(j==0){
                 let ascll=ch.charCodeAt(0)
@@ -32,3 +39,4 @@ function camelCase(str){
     }
     return ans
 }
+console.log(camelCase("Came@ lCase nf fs"))
