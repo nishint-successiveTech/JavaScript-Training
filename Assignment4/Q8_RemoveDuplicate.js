@@ -1,14 +1,14 @@
 // 8. Write a program to remove duplicate elements from an array
 
-function removeDuplicate(){
-    let set=new Set()
-
+function removeDuplicate(arr){
+    let temp=[]
     for(let i=0;i<arr.length;i++){
-        set.add(arr[i])
-    }
-    return set
+        if(temp.includes(arr[i])==false){
+            temp.push(arr[i])}
+    } 
+    return temp  
 }
 
-let arr=[1,1,1,1,1,2,2,2,2,2]
+let arr=[1,1,1,1,1,2,2,2,2,2,4,5]
 console.log(removeDuplicate(arr))
 

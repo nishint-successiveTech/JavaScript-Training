@@ -1,42 +1,16 @@
 // 5. Write a program to convert given string in camel case ("hello john doe" => helloJohnDoe)
+
 function camelCase(str){
-    str=str.trim()
-    let ans=""
+    str=str.toLowerCase()
     let arr=str.split(" ")
-    for(let i=0;i<arr.length;i++){
-        for(let j=0;j<arr[i].length;j++){
-            let ch=arr[i].charAt(j)
-            if(i==0){
-                let ascll=ch.charCodeAt(0)
-                if(ascll>=65 && ascll<=90){
-                let newStr=String.fromCharCode(ascll+32)
-                ans+=newStr;
-                }
-                else{
-                ans+=ch
-                }
-            }
-            else if(j==0){
-                let ascll=ch.charCodeAt(0)
-                if(ascll>=97 && ascll<=122){
-                let bigger=String.fromCharCode(ascll-32)
-                ans+=bigger;
-                }
-                else{
-                    ans+=ch
-                }
-            }
-            else{
-                let ascll=ch.charCodeAt(0)
-                if(ascll>=65 && ascll<=90){
-                let bigger=String.fromCharCode(ascll+32)
-                ans+=bigger
-                }
-                else{
-                ans+=ch}
-            }
-        }
+    let ans=arr[0]
+
+    for(let i=1;i<arr.length;i++){
+        let word=arr[i]
+        let ch=arr[i].charAt(0).toUpperCase()
+        let rem=arr[i].slice(1)
+        ans+=ch+rem
     }
     return ans
 }
-console.log(camelCase("Came@ lCase nf fs"))
+console.log(camelCase("Upper CaSe JavaScripT"))
