@@ -11,7 +11,7 @@ let obj=[
         age:29,
         id:2
     },
-    ({
+    {
         name:"Vijay",
         age:40,
         id:3
