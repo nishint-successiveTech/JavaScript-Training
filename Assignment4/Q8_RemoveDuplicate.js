@@ -3,7 +3,7 @@
 function removeDuplicate(arr){
     let temp=[]
     for(let i=0;i<arr.length;i++){
-        if(temp.includes(arr[i])==false){
+        if(temp.includes(arr[i])===false){
             temp.push(arr[i])}
     } 
     return temp  
