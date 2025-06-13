@@ -1,6 +1,6 @@
 // 2.Install the lodash package using npm install lodash. and use any of its function
 
-const allPackage= require('lodash');
+const allPackage = require("lodash");
 
 const numbers = [1, 2, 2, 3, 4, 4, 5];
 
