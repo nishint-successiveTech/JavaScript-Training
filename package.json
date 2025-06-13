@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "name": "javascript-training",
+  "version": "1.0.0",
+  "description": "Welcome to my JavaScript training repository! This repository documents my daily assignments and exercises as I progress through various JavaScript concepts and challenges.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishint-successiveTech/JavaScript-Training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishint-successiveTech/JavaScript-Training/issues"
+  },
+  "homepage": "https://github.com/nishint-successiveTech/JavaScript-Training#readme"
+}
