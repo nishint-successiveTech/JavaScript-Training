@@ -1,6 +1,6 @@
 const {
   add,
   sub,
-} = require("/home/nishint.goyal/Desktop/JavaScript-Training/Assignment9/math/math.js");
+} = require("./math");
 
 module.exports = { add, sub };
